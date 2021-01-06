@@ -1,0 +1,83 @@
+.select2{
+    width : 100% !important;
+}
+.wizard-content-active {
+    display: block !important;
+}
+
+.wizard-content {
+    display: none;
+}
+
+.hidden{
+    display : none !important;
+}
+
+.btn-active {
+    display : inline-block;
+}
+
+.note {
+    color : red;
+    font-weight: bold;
+}
+
+.prev-img {
+    width: 100px;
+    height: 100px !important;
+    border: 2px dashed #ddd;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+}
+
+.accordion-header button.btn-outline-primary{
+    color : #ffffff;
+}
+
+.accordion-header button.btn-outline-primary:hover{
+    background-color: transparent !important;
+    color : #ffffff !important;
+}
+
+
+.accordion .accordion-body{
+    background-color: #f4f6f9;
+}
+
+.custom-switch{
+    padding-left: 0 !important;
+}
+
+.custom-switch-description {
+    margin-right: 0.5rem;
+}
+
+.accordion .accordion-body .accordion-subbody {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #78828a;
+}
+
+.td {
+    padding : 0 10px;
+}
+
+.card-header-botton{
+    margin-left: 10px;
+}
+
+.card-header .card-header-form + .card-header-botton  {
+    margin-left: auto;
+}
+
+.btn-back{
+    font-size: 25px !important;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-right: 15px;
+}
+

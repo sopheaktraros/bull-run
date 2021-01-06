@@ -1,0 +1,30 @@
+
+.flat-pagination ul  > li:first-child > a, .flat-pagination ul  > li:first-child > span,
+.flat-pagination ul  > li:last-child > a, .flat-pagination ul  > li:last-child > span{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.flat-pagination ul  > li > a {
+    margin: 0 3px;
+    color: #424242;
+}
+
+.flat-pagination ul  > li > a:hover {
+    color:#000 ;
+}
+
+.flat-pagination ul.pagination>.active>a,
+.flat-pagination ul.pagination>.active>a:focus,
+.flat-pagination ul.pagination>.active>a:hover,
+.flat-pagination ul.pagination>.active>span,
+.flat-pagination ul.pagination>.active>span:focus,
+.flat-pagination ul.pagination>.active>span:hover {
+    z-index: 2;
+    color: #ec6719;
+    cursor: default;
+    background-color: #fff;
+    border-color: #ec6719;
+    margin-left: 3px;
+    margin-right: 6px;
+}

@@ -1,0 +1,135 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Quicksand, Arial, sans-serif;
+    background: #f4f4f4
+}
+
+h2 {
+    font-size: 2.5rem
+}
+
+#content {
+    background: #fff;
+    border-radius: 3px;
+    /*max-width: 900px;*/
+    margin: 0 auto 50px;
+    border: 1px solid #e0e0e0;
+    margin-top: 3%;
+    width: 80%;
+}
+
+#content .tabs {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#content .tabs .tab {
+
+}
+
+#content .tabs .tab a {
+    color: #333;
+    font-weight: 600;
+    border: solid #e0e0e0;
+    border-width: 0 1px 1px 0;
+}
+
+#content .tabs .tab.last a {
+    border-top-right-radius: 3px;
+    border-right: 0
+}
+
+#content .tabs .indicator {
+    height: 5px;
+    background-color: #4dab51;
+}
+
+#content .tab-content {
+    padding: 10px 50px;
+    overflow-x: auto;
+    width:98%;
+    margin: 0 auto;
+}
+
+#content .input-field label {
+    font-weight: 400;
+}
+
+#content [type="checkbox"].filled-in:checked+label:before {
+    width: 10px;
+    height: 16px;
+}
+
+#content [type="checkbox"].filled-in:checked+label:after {
+    border: 2px solid #4dab51;
+    background-color: #4dab51;
+}
+
+#content [type="checkbox"].filled-in:checked+label:after,
+#content [type="checkbox"].filled-in:not(:checked)+label:after {
+    width: 24px;
+    height: 24px;
+}
+
+.collection .collection-item.avatar .title {
+    text-transform: none;
+    font-weight: 600;
+}
+
+#close {
+    text-align: right;
+    padding: 15px;
+}
+
+#close a {
+    color: #333;
+    text-shadow: 1px 1px 1px #999;
+}
+
+.input-error-message {
+    font-size: 11px;
+    color: #F44336;
+    line-height: 0;
+}
+
+.alert {
+    border: 1px solid;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.alert.success {
+    color: #4dab51;
+    border-color: #70bb73;
+    background: #dbeedc;
+}
+
+.notify-icon {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.collection .collection-item.avatar {
+    padding-left: 55px;
+    background-color: #e8f5e9
+}
+
+.collection .collection-item.avatar.viewed {
+    background-color: #fff
+}
+
+.collection .collection-item.avatar i.notify-icon {
+    color: #4dab51
+}
+
+.collection .collection-item.avatar.viewed i.notify-icon {
+    color: #888
+}

@@ -1,0 +1,41 @@
+.field-chooser-source {
+    width: 100px;
+    height: 300px;
+}
+
+.fc-field {
+    margin: 12px 12px 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.fc-field:hover {
+    border: 1px dotted #007aff;
+    cursor: move;
+}
+
+.field-chooser-target .fc-selected {
+    border: 1px solid #007aff;
+    color: #007aff;
+    outline: none;
+}
+
+.fc-field-list {
+    width: 100%;
+    min-height: 300px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.fc-source-fields {
+    float: left;
+}
+
+.fc-destination-fields {
+    float: right;
+}
